@@ -15,39 +15,108 @@ https://codepen.io/NRHietala/pen/NWNmeXE?editors=1100
 - The h1 tag is generally used as a "heading" on the top of the page. H1 is the largest and most important of the "H" tags, it should only be used once.
 
 5. Name two tags that have required attributes
-- 
+- <link> tag (src), <a> tag (href)
+
 6. What do we put in the head of our HTML document? 
+- Inside the head we put code that isn't registered onto the webpage. Here we put our title, link tags to css, meta tags which notate language etc.
+
 7. What is an id? 
+- An id is a unique identifier attached to a tag that should only be used once.
+
 8. What elements can I add an id to? 
-9. How many times can I use the same id on a page? 
+- Any elements/tags that go inside the body of the webpage.
+
+9. How many times can I use the same id on a page?
+- Only once.
+ 
 10. What is a class? 
+- A class is a reusable identifier attached to a tag that can be, and probably will be used multiple times.
+
 11. What elements can I add a class to? 
+- Any elements/tags that go inside the body of a webpage.
+
 12. How many times can I use the same class on a page? 
+- As many as you like, might get tricky though.
+
 13. How do I get my link to open in a new tab?
+- Inside the anchor tag add [target="_blank"]
+
 14. What is the alt attribute in the image tag used for? 
+- It's used to identify what is there in the event it doesn't load or for people who use a screen reader. Maybe even help you debug a lost photo?
+
 15. How do I reference an id?
+- Using the octothorpe "#"
+
 16. What is the difference between a section and a div
+- A section is a semantic tag used to group similar content together. A div is considered a presentational tag used to style/format.
+
 17. What is CSS used for? 
+- CSS makes your webpage pretty! If your HTML code is the barebones structure of a house, CSS is the interior decorator.
+
 18. How to we select an element? Example - every h2 on the page
+- h2 {}
+
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+- A class is a reusable identifier. You might attach it to all your <p> tags to keep styling consistent.
+- An id would be for a unique application that would only be used once. Maybe you wanted only a certain button to perform a specific function.
+
 20. How do we select classes in CSS?
+- by using the period [.] before the class name
+
 21. How do we select a p element with a single class of “human””?
+- If its the only tag with that class you could just use .human. If you needed to be specific [.human p]
+
 22. What is a parent child selector? When would this be useful? 
+- The parent and child selectors for choosing tags, "above" or "below" your tag. This can be useful if you want to select multiple tags below the ones you want. Like selecting children of a UL tag, it would grab the li's and a tags together.
+
 23. How do you select all links within a div with the class of sidebar?
+- .sidebar a {}
+
 24. What is a pseudo selector?
+- A pseudo selector is used to activate during a certain state like hover, active.
+
 25. What do we use the change the spacing between lines?
+- line-height property
+
 26. What do we use to change the spacing between letters?
+- letter-spacing property
+
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+- text-transform property
+
 28. How do I add a 1px border around my div that is dotted and black?
+- border: 1px dotted black;
+
 29. How do I select everything on the page? 
+- The all selector "*"
+
 30. How do I write a comment in CSS?
+- /*(stuff)*/
+
 31. How do I find out what file I am in, when I am using the command line? 
+- print working directory (pwd), also says on line usually
+
 32. Using the command line - how do I see a list of files/folders in my current folder?
+- ls, can also add -a and -l flag. A is for hidden, l is for longform.
+
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+- rm <filename>, or you can use rm -r to delete folders and recursively delete the items inside.
+
 34. Why should I use version control? 
+- Version control helps us track, control, save our work, and work together more effeciently.
+
 35. How often should I commit to github?
+- More often than I have lately. Very often.
+
 36. What is the command we would use to push our repo up to github? 
+- git push, to a new branch git push -u origin <branchname>
+
 37. Walk me through Lambda's git flow. 
+- Lambda wants us to fork their repo
+- Clone the code from our personal fork to our computers. Add PM's as collaborators.
+- Move into that directory in git, checkout a new branch with our first name and last name
+- From there we'll add, commit, push code up to our forked repo
+- Submit a pull request
 
 Stretch Questions
 
