@@ -123,8 +123,17 @@ https://codepen.io/NRHietala/pen/NWNmeXE?editors=1100
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+1. What is the difference between an inline element and a block element?
+- Inline elements only take up the space they need. block level elements are like bullies and push everything below it onto the next line.
+
+2. What happens when an element is positioned absolutely? 
+- It's essentially removed from the normal formatting of the page. On its own layer in a way, above or below the normal content I'm not sure.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+- display:inline-block;
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+- Div,H's, OL/UL are block level. A button is a good example of a inline block
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+- The box model is essentially the "boxes" that surround tags. Margin,border, padding. You can use these to manipulate the content inside and around elements. The "fix" is flexbox which does the calculations for us and makes me love life.
