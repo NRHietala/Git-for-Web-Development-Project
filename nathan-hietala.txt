@@ -116,7 +116,10 @@ https://codepen.io/NRHietala/pen/NWNmeXE?editors=1100
 - Clone the code from our personal fork to our computers. Add PM's as collaborators.
 - Move into that directory in git, checkout a new branch with our first name and last name
 - From there we'll add, commit, push code up to our forked repo
-- Submit a pull request
+- Submit a pull request by comparing between your forked repo master branch and <name> branch, change it our forked repo, add PM's as reviewers
+- Submit pull request link into Canvas
+- DO NOT MERGE YOUR OWN PULL REQUEST!
+
 
 Stretch Questions
 
